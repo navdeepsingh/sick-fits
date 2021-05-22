@@ -1,7 +1,7 @@
 export default function AccountsPage() {
   return (
     <>
-      <h2>Accounts Page</h2>
+      <h2>Account Page</h2>
     </>
   )
 }
