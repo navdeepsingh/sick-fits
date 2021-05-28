@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "keystone-next",
-    "seed-data": "keystone-next --seed-data"
+    "seed-data": "keystone-next --seed-data",
+    "db:start": "mongod --dbpath ~/Documents/mongodb/data/db"
   },
   "eslintConfig": {
     "extends": "wesbos/typescript.js",
